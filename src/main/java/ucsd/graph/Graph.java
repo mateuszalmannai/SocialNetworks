@@ -1,4 +1,4 @@
-package graph;
+package ucsd.graph;
 
 import java.util.HashMap;
 import java.util.HashSet;

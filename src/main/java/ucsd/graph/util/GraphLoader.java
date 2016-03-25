@@ -4,7 +4,7 @@
  * Utility class to add vertices and edges to a graph
  *
  */
-package util;
+package ucsd.graph.util;
 
 import java.io.File;
 import java.util.HashSet;

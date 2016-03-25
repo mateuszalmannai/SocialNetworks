@@ -5,7 +5,7 @@
  *
  */
 
-package graph.grader;
+package ucsd.graph.grader;
 
 import java.io.PrintWriter;
 
