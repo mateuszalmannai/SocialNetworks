@@ -7,10 +7,13 @@
 
 package ucsd.graph.grader;
 
+import ucsd.graph.CapGraph;
+import ucsd.graph.Graph;
+import ucsd.graph.util.GraphLoader;
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.PrintWriter;
-import util.GraphLoader;
 import java.util.List;
 import java.util.Set;
 import java.util.HashSet;
@@ -19,8 +22,6 @@ import java.util.Map;
 import java.util.HashMap;
 import java.util.ArrayList;
 import java.util.Scanner;
-import graph.CapGraph;
-import graph.Graph;
 
 public class SCCGrader extends Grader {
     private int totalTests;

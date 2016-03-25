@@ -8,15 +8,16 @@
 
 package ucsd.graph.grader;
 
+import ucsd.graph.CapGraph;
+import ucsd.graph.Graph;
+import ucsd.graph.util.GraphLoader;
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Scanner;
 
-import util.GraphLoader;
-import graph.CapGraph;
-import graph.Graph;
 
 public class EgoGrader extends Grader {
     private static final int TESTS = 10;

@@ -6,6 +6,8 @@
  */
 package ucsd.graph.util;
 
+import ucsd.graph.Graph;
+
 import java.io.File;
 import java.util.HashSet;
 import java.util.Scanner;
@@ -17,7 +19,7 @@ public class GraphLoader {
      * The file should consist of lines with 2 integers each, corresponding
      * to a "from" vertex and a "to" vertex.
      */ 
-    public static void loadGraph(graph.Graph g, String filename) {
+    public static void loadGraph(Graph g, String filename) {
         Set<Integer> seen = new HashSet<Integer>();
         Scanner sc;
         try {
