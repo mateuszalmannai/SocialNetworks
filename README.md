@@ -15,12 +15,12 @@ assignments. No code will be provided for the capstone project.
 
 Below are the files provided for the warm-up assignment in week 1:
 
-1. graph.Graph.java
-2. graph.CapGraph.java
-3. util.GraphLoader.java
-4. graph.grader.Grader.java
-5. graph.grader.EgoGrader.java
-6. graph.grader.SCCGrader.java
+1. Graph.java
+2. CapGraph.java
+3. GraphLoader.java
+4. Grader.java
+5. EgoGrader.java
+6. SCCGrader.java
 
 Data files and information about them can be found in the `data/` directory.
 
